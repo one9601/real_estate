@@ -1,15 +1,24 @@
 # 프로젝트 이름
 
-텍스트
+부동산중개
 
 ## 🔗 데모
-[링크](https://example.com)
+[링크]([https://example.com](https://keewon17.cafe24.com/portfolio/theme/CKW/html/property-list.php#Back))
 
 ---
 
 ## 📖 소개
 
-텍스트
+카카오맵 API와 Ajax를 활용하여 지도 기반 부동산 매물 조회 기능을 구현한 반응형 웹 프로젝트입니다.
+
+그누보드 게시판을 커스텀하여 관리자가 매물을 손쉽게 등록·관리할 수 있도록 구성하였으며,  
+사용자는 지도 중심의 UI를 통해 주변 매물을 직관적으로 탐색할 수 있습니다.
+
+지도 이동 및 확대/축소 시 Ajax 비동기 통신으로 매물 데이터를 실시간 갱신하도록 구현하였고,  
+매물 리스트·상세 패널·갤러리 UI를 구성하여 직방·다방 스타일의 사용자 경험을 구현하였습니다.
+
+실제 서비스 형태를 고려하여 반응형 레이아웃, 마커 클러스터링, 상세 정보 패널,  
+게시판 기반 데이터 관리 구조 등을 중점적으로 작업하였습니다.
 
 ---
 
@@ -20,49 +29,21 @@
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![AJAX](https://img.shields.io/badge/AJAX-005571?style=for-the-badge)
+![GNUBOARD](https://img.shields.io/badge/GNUBOARD-222222?style=for-the-badge)
 
 ---
 
-## 👨‍💼 사용방법 - 직원등록
+## 사용방법 - 매물등록
 
-### 1. 직원 등록 페이지 접속
+### 1. 매물등록 페이지 접속
 
-![직원등록](./readme/employee-register.png)
+![매물등록](./readme/write.png)
 
-관리자는 직원명과 권한을 등록할 수 있습니다.
+관리자는 매물을 등록/편집 할 수 있습니다.
 
 ### 2. 등록 완료
 
-직원은 이후 출결 기록에서 선택 가능합니다.
+관리자가 등록한 매물은 관리자 전용 메뉴 / 지도 화면에서 확인할 수 있습니다.
 
 ---
-
-## ⏰ 사용방법 - 출결기록
-
-### 1. 직원 선택
-
-![출결기록](./readme/attendance-write.png)
-
-등록된 직원 목록에서 선택 후 출근/퇴근을 기록합니다.
-
-### 2. 기록 저장
-
-저장 시 시간과 날짜가 자동 기록됩니다.
-
----
-
-## 📅 관리자 기능
-
-### 월별 캘린더 확인
-
-![캘린더](./readme/calendar.png)
-
-권한 9 이상 관리자는 월별 출결 현황을 확인할 수 있습니다.
-
----
-
-## 📊 통계 기능
-
-![통계](./readme/stat.png)
-
-날짜별 근무 시간을 자동 계산합니다.
