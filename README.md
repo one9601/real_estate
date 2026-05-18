@@ -3,7 +3,7 @@
 부동산중개
 
 ## 🔗 데모
-[링크]([https://example.com](https://keewon17.cafe24.com/portfolio/theme/CKW/html/property-list.php#Back))
+[데모 바로가기](https://keewon17.cafe24.com/portfolio/theme/CKW/html/property-list.php#Back)
 
 ---
 
@@ -59,3 +59,11 @@
 ### 2. 지도 확대 시 (마커, Marker)
 
 ![지도 확대 시](./readme/user-view2.png)
+
+### 3. 매물 클릭 시
+
+![매물상세](./readme/user-view3.png)
+![매물상세](./readme/user-view4.png)
+![매물상세](./readme/user-view5.png)
+
+매물 정보, 상세 설명, 매물 위치 등 다양한 정보를 확인 후 관리자가 등록한 매물 문의 링크로 문의가 가능합니다.
